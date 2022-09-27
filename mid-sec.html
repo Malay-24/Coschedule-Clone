@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #midcontainer{
+            border: 5px solid red;
+        }
+        #midcontainer>div:first-child{
+            width: 50%;
+            margin: auto;
+            border: 2px solid green;
+            text-align: center;
+        }
+        #mid-cart{
+            width: 50%;
+            margin: auto;
+            border: 2px solid green;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,100px);
+            gap: 20px;
+        }
+        #mid-cart>div{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+   <div id="midcontainer">
+    <div>
+         <h2>Our Products</h2>
+    </div>
+      <div id="mid-cart">
+            <div>
+                <img src="https://coschedule.com/_next/image?url=%2Fimg%2Fhome%2Fmc-product-background.png&w=1920&q=100">
+                <img src="https://coschedule.com/_next/image?url=%2Fimg%2Fproduct%2Fmarketing-calendar-product-icon.png&w=64&q=75">
+                <h1>Marketing Calendar</h1>
+                <p>A calendar that helps you see, schedule, and share your marketing.</p>
+                <ul>
+                    <li type=""
+                </ul>
+            </div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+
+
+      </div>
+
+
+
+   </div> 
+</body>
+</html>
