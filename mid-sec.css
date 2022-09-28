@@ -1,47 +1,93 @@
-#midcontainer{
-    border: 5px solid red;
-}
-#midcontainer>div:first-child{
+   #midcontainer{
+    border: 2px solid red;
+    margin-bottom: 7%;
+    }
+  #midcontainer>div:first-child{
     width: 80%;
     margin: auto;
     border: 2px solid green;
     text-align: center;
-}
-#mid-cart{
+    padding: 2%;
+    font-size: 20px;
+    }
+   #mid-cart{
     width: 70%;
     margin: auto;
     border: 2px solid green;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,auto);
-    gap: 20px;
-}
-#mid-cart>div{
-    border: 2px solid blue;
-}
-ul {
-list-style: none;
+    grid-template-rows: repeat(2,400px);
+    gap: 30px;
+   }
+   #mid-cart>div{
+    border: px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+ 
+   ul {
+    list-style: none;
    }
 
-  ul li:before {
+   ul li:before {
      content: '✓';
+     color: red;
+     font-weight: bolder;
    }
    .image1{
-  width: 100%;
-  height: 20%;
-   }
-   
-            
+      width: 100%;
+      height: 25%;
+     }
+  .image2{
+        border: 2px solid red;
+        width: 64px;
+        height: 64px;
+        margin-left: 8%;
+        margin-top: -8%;
+     }
+         
+     #mid-cart>div>h1,p,ul{
+        padding-left: 8%;
+        line-height: 20px;
+     }  
+
+    #mid-cart>div>button{
+        padding: 10px;
+        margin-left: 8%;
+    }
+
+
+
+
          #mid-sec1{
             border: 2px solid red;
             text-align: center;
-          }
-           #mid-sec1 div+div{
+            
+            }
+           #mid-sec1>div:last-child{
             display: flex;
-            justify-content: space-around;
-            border: 2px solid red;
-           }
+             gap: 30px;
+             width: 80%;
+             margin: auto;
+            border: px solid red;
+            margin-top: 4%;
+            }
 
+          #box1{
+            border: px solid green;
+            padding: 5%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+          #box2{
+            border: px solid olive;
+            padding: 5%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+
+          #box3{
+            border: px solid greenyellow;
+            padding: 6%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
 
 
 
@@ -50,10 +96,11 @@ list-style: none;
             #mid-sec2{
                 background-color: orangered;
                 padding: 20px;
-            }
+                margin-top: 5%;
+                }
 
             #mid-sec2>div{
-            border: 2px solid red;
+            border: px solid red;
             width: 50%;
             margin: auto;
             text-align: center;
@@ -67,3 +114,5 @@ list-style: none;
                 font-weight: bold;
                 border: none;
             }
+
+           

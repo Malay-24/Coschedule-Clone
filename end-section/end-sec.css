@@ -1,0 +1,36 @@
+#box{
+    border: px solid red;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
+ 
+    gap: 20px;
+}
+#box div{
+    border: px solid green;
+    margin-left: 5px;
+}
+.cart-img{
+    width: 32px;
+    height: 32px;
+}
+
+.up-img{
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+
+}
+
+#up{
+    width: 64px;
+    height: 64px;
+}
+
+.cart{
+    display: flex;
+    gap: 5px;
+}
+.cart img{
+    margin-top: 10px;
+}
