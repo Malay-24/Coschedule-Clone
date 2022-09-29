@@ -6,6 +6,7 @@
 #top-container div{
     border: px solid lawngreen;
     text-align: center;
+    color: #4B4B4B;
 }
 
 #top-container>div:last-child{
@@ -23,21 +24,29 @@ img{
 #top-box{
     border: px solid gold;
     text-align: center;
-    background-color: grey;
+    background-color: #F8F8F8;
     padding-bottom: 15%;
     line-height: 20px;
     padding-top: 15px;
+    color: #4B4B4B;
+}
+#top-box h1{
+    font-size: 50px;
+}
 
+#top-box p{
+    font-size: 18px;
 }
 
 button{
-  padding: 20px;
+  padding:15px 20px;
   color: white;
   border-radius: 5px;
   font-weight: bold;
  border: none;
+ font-size: 15px;
  margin-top: 20px;
- background-color: lightcoral;
+ background-color:#f37e5d;
 }
 
 #center-img{
@@ -53,46 +62,29 @@ button{
     display: flex;
     height: 100px;
     width: 100%;
-   
+
+   color: #2F2F2F;
 }
- #navbar div:first-child{
-    border: px solid goldenrod;
-    width: 15%;
-    
-}
- #navbar img{
-    width: 100%;
-    height: 100%;
-    margin-left: -40px;
-    margin-top: -30px;
+ #navbar>div:first-child{
+    border: 2px solid red;
+    width: 20%;
  }
 
+ #navbar>div>img{
+    border: 2px solid green;
+    width: 50%;
+ }
 
-
- #navbar>div:last-child{
-    width: 85%;
+#navbar>div:last-child{
+    border: 2px solid black;
     display: flex;
-    border: px solid red;
+    width: 78%;
     justify-content: space-between;
- }
- #navbar>div:last-child>div{
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    margin-left: 10px;
- }
- #navbar>div:last-child>div:first-child{
-    border: px solid red;
-    width: 30%;
-   
- }
- #navbar>div:last-child>div:last-child{
-    width: 30%;
- }
- 
-#btn1{
-    background-color: orangered;
-    margin-top: -10px;
-    padding: 0%;
 }
-
+#navbar>div:last-child>div{
+    border: 4px solid red;
+    display: flex;
+    
+    gap: 5%;
+    width: 30%;
+}
