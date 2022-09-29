@@ -1,12 +1,49 @@
 
-   ul {
+    #list1 {
     list-style: none;
    }
 
-   ul li:before {
+   #list1 li:before {
      content: '✓';
      color: red;
-     font-size: 10px;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list2 {
+    list-style: none;
+   }
+
+   #list2 li:before {
+     content: '✓';
+     color: red;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list3 {
+    list-style: none;
+   }
+
+   #list3 li:before {
+     content: '✓';
+     color: #618Be0;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list4 {
+    list-style: none;
+   }
+
+   #list4 li:before {
+     content: '✓';
+     color: #835Ce5;
+     font-size: 20px;
+     font-weight: bolder;
    }
    
    #midcontainer{
