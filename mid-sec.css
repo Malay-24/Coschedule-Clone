@@ -5,18 +5,18 @@
   #midcontainer>div:first-child{
     width: 80%;
     margin: auto;
-    border: 2px solid green;
+    border: px solid green;
     text-align: center;
-    padding: 2%;
+    /* padding: 2%; */
     font-size: 20px;
     }
    #mid-cart{
-    width: 70%;
+    width: 80%;
     margin: auto;
     border: 2px solid green;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,400px);
+    grid-template-rows: repeat(2,auto);
     gap: 30px;
    }
    #mid-cart>div{
@@ -34,19 +34,18 @@
      font-weight: bolder;
    }
    .image1{
-      width: 100%;
-      height: 25%;
+      
      }
   .image2{
-        border: 2px solid red;
+        /* border: 2px solid red;
         width: 64px;
         height: 64px;
         margin-left: 8%;
-        margin-top: -8%;
+        margin-top: -8%; */
      }
          
      #mid-cart>div>h1,p,ul{
-        padding-left: 8%;
+        /* padding-left: 8%; */
         line-height: 20px;
      }  
 
@@ -76,6 +75,13 @@
             border: px solid green;
             padding: 5%;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            
+          }
+          #box1 h2{
+            font-size: 40px;
+          }
+          #box1 h4{
+            font-size: 17px;
           }
           #box2{
             border: px solid olive;
