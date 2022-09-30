@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="top-sec stylesheet" href="top-sec.css">
+</head>
+<body>
+    <div id="mainbox">
+        <div >
+            <img id="imagebox" src="https://accounts.coschedule.com/img/login-illustrations/9-f8d7d2bb5f01716f9483c69c945f008a.png">
+
+        </div>
+
+<!-- ========================================================================================================================================= -->
+
+
+        <div>
+
+             <div>
+                <img src="https://accounts.coschedule.com/img/cos-logo-horz.svg">
+             </div>
+             <!-- ================================================================================================================ -->
+             <div>
+                <form>
+                    <label for="fname">EMAIL ADDRESS</label>
+                    <input type="email" id="fname"  placeholder="Email Address">
+                
+                    <label for="lname">PASSWORD</label>
+                    <input type="password" id="lname"  placeholder="Password">
+                
+                    
+                  
+                    <button>Sign In</button>
+                     
+                      <h5 style="text-align:center";>OR</h5>
+
+
+                      <button id="submit-button" class="button sign-in-button sso-button " data-test-google-login-button="" type="submit">
+                        <img class="sso-provider-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQrDTc53OSM9f9xo5TknbcniGr-yO2WWsvLAlA5rWFig&s" alt="">
+                        <p>Continue with Google</p>
+                     </button>
+                    
+                     <button id="submit-button" class="button sign-in-button sso-button " data-test-facebook-login-button="" type="submit">
+                        <img class="sso-provider-logo" src="data:image/png;base64,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" alt="">
+                        <p>Continue with Facebook</p>
+                     </button>
+                
+                    
+                     <button id="submit-button" class="button sign-in-button sso-button " data-test-apple-login-button="" type="submit">
+                        <img class="sso-provider-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3cCEazk-f-KAjqyfh0u3BQ3eo2hbMAN_o6RhlEyL&s" alt="">
+                        <p>Continue with Apple</p>
+                    </button>
+                
+
+                </form>
+             </div>
+              <!-- ========================================================================================================================== -->
+             <div>
+                <div>
+                    <p>Need an Account</p>
+                </div>
+                <hr>
+                <div>
+                    <p>Forgot Your Password?</p>
+                </div>
+             </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
+
+<script>
+  
+  document.getElementById('imagebox>img').src = 'bg.jpg';
+
+
+
+</script>
