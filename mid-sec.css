@@ -1,65 +1,142 @@
-   #midcontainer{
-    border: 2px solid red;
-    margin-bottom: 7%;
-    }
-  #midcontainer>div:first-child{
-    width: 80%;
-    margin: auto;
-    border: px solid green;
-    text-align: center;
-    /* padding: 2%; */
-    font-size: 20px;
-    }
-   #mid-cart{
-    width: 80%;
-    margin: auto;
-    border: 2px solid green;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,auto);
-    gap: 30px;
-   }
-   #mid-cart>div{
-    border: px solid blue;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-   }
- 
-   ul {
+
+    #list1 {
     list-style: none;
    }
 
-   ul li:before {
+   #list1 li:before {
      content: '✓';
      color: red;
+     font-size: 20px;
      font-weight: bolder;
    }
+
+
+   #list2 {
+    list-style: none;
+   }
+
+   #list2 li:before {
+     content: '✓';
+     color: red;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list3 {
+    list-style: none;
+   }
+
+   #list3 li:before {
+     content: '✓';
+     color: #618Be0;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list4 {
+    list-style: none;
+   }
+
+   #list4 li:before {
+     content: '✓';
+     color: #835Ce5;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+   
+   #midcontainer{
+    border: px solid red;
+    padding-top: 5%;
+    background-color: #F8F8F8;
+    padding-bottom: 8%;
+   }
+
+   #midcontainer>div:first-child{
+    border: px solid green;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 26px MuseSans-700, sans-serif;
+    color: #4B4B4B;
+   }
+   #midcontainer>div:last-child{
+    border: px solid gold;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    margin: auto;
+    gap: 40px;
+   }
+   #midcontainer>div:last-child>div{
+    border: px solid green;
+      padding-bottom: 25px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   }
+   
+   .mid-cart{
+    border: px solid red;
+    
+   }
+     
+   #midcontainer h3,p,ul{
+    padding-left: 5%;
+    
+   }
+
+   #midcontainer button{
+    
+    margin-left: 5%;
+    
+   }
+
+   #btn1{
+    background-color: #FFEDE3;
+    color: #F37E5D;
+    padding: 12px 30px;
+    margin-top: 15px;
+   }
+   #btn2{
+    background-color: #FFEDE3;
+    color: #F37E5D;
+    padding: 12px 30px;
+   }
+
+   #btn3{
+    background-color: #DFE8F9;
+    color: #618Be0;
+    padding: 12px 30px;
+   }
+   #btn4{
+    background-color: #E6DEFA;
+    color: #835Ce5;
+    padding: 12px 30px;
+   }
+
    .image1{
-      
-     }
-  .image2{
-        /* border: 2px solid red;
-        width: 64px;
-        height: 64px;
-        margin-left: 8%;
-        margin-top: -8%; */
-     }
-         
-     #mid-cart>div>h1,p,ul{
-        /* padding-left: 8%; */
-        line-height: 20px;
-     }  
-
-    #mid-cart>div>button{
-        padding: 10px;
-        margin-left: 8%;
-    }
+    height: 150px;
+    width: 425px;
+   object-fit: cover;
+   margin-left: -45px;
+   margin-top: -45px;
+   }
+   .image2{
+    width: 60px;
+    height: 60px;
+    margin-left: -20px;
+    margin-top: -110px;
+   }
 
 
 
 
+
+
+/* ============================================================================================================================================== */
          #mid-sec1{
-            border: 2px solid red;
+            border: px solid red;
             text-align: center;
+            color: #4B4B4B;
             
             }
            #mid-sec1>div:last-child{
@@ -97,10 +174,10 @@
 
 
 
-
+   /* ======================================================================================================================================= */
 
             #mid-sec2{
-                background-color: orangered;
+                background-color:#f9a97d;
                 padding: 20px;
                 margin-top: 5%;
                 }
@@ -114,9 +191,10 @@
             padding: 20px;
             }
             #mid-sec2 button{
-                padding: 20px;
-                color: lightcoral;
+                padding: 15px 20px;
+                color: white;
                 border-radius: 5px;
+                background-color:#F37E5D;
                 font-weight: bold;
                 border: none;
             }

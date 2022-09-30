@@ -1,3 +1,53 @@
 #navbar-box{
     border: 2px solid red;
 }
+
+#navbar{
+    border: 4px solid darkred;
+    display: flex;
+    height: 100px;
+    width: 100%;
+
+   color: #2F2F2F;
+}
+ #navbar div:first-child{
+    border: 2px solid goldenrod;
+    width: 15%;
+    
+}
+ #navbar img{
+    width: 80%;
+    height: 80%;
+    margin-left: -35px;
+    margin-top: -20px;
+ }
+
+
+
+ #navbar>div:last-child{
+    width: 82%;
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+    color: #4B4B4B;
+ }
+ #navbar>div:last-child>div{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 10px;
+ }
+ #navbar>div:last-child>div:first-child{
+    border: px solid red;
+    width: 30%;
+   
+ }
+ #navbar>div:last-child>div:last-child{
+    width: 30%;
+ }
+ 
+  #btn-nav{
+    background-color: #F37E5D;
+    margin-top: -10px;
+    padding: 12px 20px;
+}
