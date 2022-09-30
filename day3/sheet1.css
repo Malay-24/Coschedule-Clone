@@ -1,0 +1,108 @@
+#top-container{
+    border: px solid red;
+   
+}
+
+#top-container div{
+    border: px solid lawngreen;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+#top-container>div:last-child{
+    border: px solid chocolate;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 10%;
+}
+
+#top-box{
+    border: px solid gold;
+    text-align: center;
+    background-color: #F8F8F8;
+    padding-bottom: 15%;
+    line-height: 20px;
+    padding-top: 15px;
+    color: #4B4B4B;
+}
+#top-box h1{
+    font-size: 50px;
+}
+
+#top-box p{
+    font-size: 18px;
+}
+
+button{
+  padding:15px 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+ border: none;
+ font-size: 15px;
+ margin-top: 20px;
+ background-color:#f37e5d;
+}
+
+#center-img{
+    margin-top: -375px;
+    border: px solid red;
+}
+/* =========================================================================================================================================== */
+
+/* ====================================================================navbar section=============================== */
+
+ #navbar{
+    border: px solid darkred;
+    display: flex;
+    height: 100px;
+    width: 100%;
+   background-color: #F8F8F8;
+   color: #2F2F2F;
+}
+ #navbar>div:first-child{
+    border: px solid red;
+    width: 20%;
+ }
+
+ #navbar>div>img{
+    border: px solid green;
+    width: 80%;
+    margin-left: -20px;
+ }
+ #navi{
+    border: px solid red;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .nav1{
+    border: px solid brown;
+    display:flex;
+    gap: 25px;
+    padding-top: 4%;
+    font-size: 16px;
+    color: #2F2F2F;
+    
+ }
+ .nav2{
+    border: px solid green;
+    display: flex;
+    gap: 25px;
+    padding-top: 4%;
+    font-size: 16px;
+    color: #2F2F2F;
+ }
+ #nav-btn{
+    background-color: #f37e5d;
+    border: none;
+    margin-top: -20px;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+ }

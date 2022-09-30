@@ -1,0 +1,199 @@
+#list1 {
+    list-style: none;
+   }
+
+   #list1 li:before {
+     content: '✓';
+     color: red;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list2 {
+    list-style: none;
+   }
+
+   #list2 li:before {
+     content: '✓';
+     color: red;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list3 {
+    list-style: none;
+   }
+
+   #list3 li:before {
+     content: '✓';
+     color: #618Be0;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+
+   #list4 {
+    list-style: none;
+   }
+
+   #list4 li:before {
+     content: '✓';
+     color: #835Ce5;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+   
+   #midcontainer{
+    border: px solid red;
+    padding-top: 5%;
+    background-color: #F8F8F8;
+    padding-bottom: 8%;
+   }
+
+   #midcontainer>div:first-child{
+    border: px solid green;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 26px MuseSans-700, sans-serif;
+    color: #4B4B4B;
+   }
+   #midcontainer>div:last-child{
+    border: px solid gold;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    margin: auto;
+    gap: 40px;
+   }
+   #midcontainer>div:last-child>div{
+    border: px solid green;
+      padding-bottom: 25px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   }
+   
+   .mid-cart{
+    border: px solid red;
+    
+   }
+     
+   #midcontainer h3,p,ul{
+    padding-left: 5%;
+    
+   }
+
+   #midcontainer button{
+    
+    margin-left: 5%;
+    
+   }
+
+   #btn1{
+    background-color: #FFEDE3;
+    color: #F37E5D;
+    padding: 12px 30px;
+    margin-top: 15px;
+   }
+   #btn2{
+    background-color: #FFEDE3;
+    color: #F37E5D;
+    padding: 12px 30px;
+   }
+
+   #btn3{
+    background-color: #DFE8F9;
+    color: #618Be0;
+    padding: 12px 30px;
+   }
+   #btn4{
+    background-color: #E6DEFA;
+    color: #835Ce5;
+    padding: 12px 30px;
+   }
+
+   .image1{
+    height: 150px;
+    width: 425px;
+   object-fit: cover;
+   margin-left: -45px;
+   margin-top: -45px;
+   }
+   .image2{
+    width: 60px;
+    height: 60px;
+    margin-left: -20px;
+    margin-top: -110px;
+   }
+
+
+
+
+
+
+/* ============================================================================================================================================== */
+         #mid-sec1{
+            border: px solid red;
+            text-align: center;
+            color: #4B4B4B;
+            
+            }
+           #mid-sec1>div:last-child{
+            display: flex;
+             gap: 30px;
+             width: 80%;
+             margin: auto;
+            border: px solid red;
+            margin-top: 4%;
+            }
+
+          #box1{
+            border: px solid green;
+            padding: 5%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            
+          }
+          #box1 h2{
+            font-size: 40px;
+          }
+          #box1 h4{
+            font-size: 17px;
+          }
+          #box2{
+            border: px solid olive;
+            padding: 5%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+
+          #box3{
+            border: px solid greenyellow;
+            padding: 6%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+
+
+
+   /* ======================================================================================================================================= */
+
+            #mid-sec2{
+                background-color:#f9a97d;
+                padding: 20px;
+                margin-top: 5%;
+                }
+
+            #mid-sec2>div{
+            border: px solid red;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            }
+            #mid-sec2 button{
+                padding: 15px 20px;
+                color: white;
+                border-radius: 5px;
+                background-color:#F37E5D;
+                font-weight: bold;
+                border: none;
+            }
