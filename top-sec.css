@@ -98,6 +98,209 @@ button{
     font-size: 16px;
     color: #2F2F2F;
  }
+
+ 
+#btn1{
+    background-color: orangered;
+    margin-top: -10px;
+    padding: 0%;
+}
+
+/* =================================hover============================================================================= */
+
+#Product{
+    border: px solid red;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 5px;
+    
+}
+#Product h4{
+    color: #8f8f8f;
+}
+
+#Product>div:first-child{
+    border: px solid brown;
+    width: 60%;
+}
+#Products>div:last-child{
+    border: 4px solid red;
+    width: 40%;
+}
+#Pro1>div{
+   border: px solid red;
+   display: flex;
+   gap: 20px;
+   padding: 12px 20px;
+}
+
+#Pro1 img{
+   width: 60px;
+   height: 60px;
+   
+}
+
+#Pro2>div{
+    border: px solid red;
+    display: flex;
+    gap: 20px;
+    padding: 12px 20px;
+ }
+ #Pro2 img{
+    width: 60px;
+    height: 60px;
+ }
+ hr{
+    margin-left: 35px;
+    margin-right: 35px;
+ }
+ /* ================================================================================================================================ */
+
+ #Why{
+    border: px solid red;
+    width: 15%;
+    margin: auto;
+    padding: 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+ }
+ #Why h3{
+    color: #2f2f2f;
+ }
+ #Why p{
+    color: #8f8f8f;
+ }
+ /* =============================================================================================================================== */
+ #res-cart{
+    border: px solid red;
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+ }
+ #res-cart>div{
+    border: px solid brown;
+ }
+ .cart-1{
+    border:px solid black;
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+ }
+ .cart-1 img{
+    width: 40px;
+    height: 40px;
+ }
+ .cart-1>div>button{
+    border: px solid red;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+   
+ }
+ #res-cart h3{
+    color: #2F2F2F;
+ }
+ #res-cart h4,p{
+  color: #8f8f8f;
+ }
+ /* ============================================================================================================================= */
+
+ #mainbox{
+   border: px solid red;
+   display: flex;
+   text-align: left;
+ }
+ #mainbox>div:first-child{
+   width: 65%;
+   border: px solid gold;
+ }
+ #mainbox>div:last-child{
+   border: px solid brown;
+   width: 35%;
+ }
+ #mainbox>div:last-child>div:last-child{
+   border: px solid red;
+   display: flex;
+ }
+ #mainbox>div:last-child>div:nth-child(2){
+   border: px solid red;
+ }
+ #imagebox {
+   width: 100%;
+   height: auto;
+ }
+
+ input[type=email] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+
+ input[type=password] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+
+ button {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   background-color: #d17760;
+   font-size: 16px;
+ }
+
+ #submit-button{
+   width: 100%;
+   /* padding: 12px 20px; */
+   margin: 8px 0;
+   display: flex;
+   justify-content: space-evenly;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   background-color: #ffff;
+   font-size: 16px;
+   color: #2F2F2F;
+   height: 50px;
+ }
+
+ #submit-button img{
+   width: 10%;
+   height: 100%;
+   margin-top: -40px;
+   margin-left: -5px;
+ }
+ #submit-button p{
+  border: px solid red;
+  margin-top: -5px;
+  color: #2F2F2F;
+ }
+ 
+ 
+ 
+ 
+ div {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+=======
  #nav-btn{
     background-color: #f37e5d;
     border: none;
@@ -105,4 +308,5 @@ button{
    width: 200px;
    height: 50px;
    text-align: center;
+
  }
