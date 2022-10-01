@@ -106,3 +106,8 @@ button{
    height: 50px;
    text-align: center;
  }
+
+*{
+    cursor:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
