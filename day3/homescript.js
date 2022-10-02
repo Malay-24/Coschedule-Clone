@@ -10,7 +10,7 @@ function Btn1(){
 }
 
 function Btn2(){
-    window.open("https://coschedule.com/marketing-suite","_self");
+    window.location.href="https://coschedule.com/marketing-suite";
 }
 
 function Btn3(){
@@ -28,10 +28,14 @@ document.querySelector("#box3").addEventListener("click",Box3);
 document.querySelector("#Pricing").addEventListener("click",Pricing);
 document.querySelector("#nav-btn").addEventListener("click",NavBtn);
 document.querySelector("#Demo-Btn").addEventListener("click",DemoBtn);
+document.querySelector("#nav2a").addEventListener("click",SignIn);
+document.querySelector("#nav2b").addEventListener("click",GetStarted);
 
 
 
-
+function SignIn(){
+   window.open("C:\Users\Malay\Desktop\CoSchedule\day3\day4\signIn.html","_self");
+  }
 
 
 
@@ -70,7 +74,7 @@ function NavImg(){
    function Products(){
 
    }
-
+   console.log("hello");
 //    ================================================================================================================
 
  document.querySelector("#foot-1").addEventListener("click",Foot1);
