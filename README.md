@@ -31,7 +31,7 @@ The fastest growing marketing work management software.
 
 ![Home page](https://i.ibb.co/xjcB51W/Screenshot-2023-01-10-094823.png)
 <!-- ![Homepage overview](https://www.linkpicture.com/q/Screenshot-271_2.png) -->
-![Footer part](https://www.linkpicture.com/q/Screenshot-269.png)
+<!-- ![Footer part](https://www.linkpicture.com/q/Screenshot-269.png) -->
 
 
 ## IMP Link's
