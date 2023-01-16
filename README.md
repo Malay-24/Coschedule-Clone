@@ -20,7 +20,6 @@ The fastest growing marketing work management software.
 - organize and manage your blog posts
 - Manage social media posts, email marketing
 - Marketing-calender-page
-- Filters
 - Organize tasks and to-do-lists
 - Manage analytics from a single platform.
 
